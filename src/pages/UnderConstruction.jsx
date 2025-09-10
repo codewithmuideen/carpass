@@ -28,7 +28,7 @@ export default function UnderConstruction() {
 
         {/* Subtitle */}
         <p className="text-gray-300 text-lg mb-8">
-          We’re crafting something amazing at <span className="font-semibold text-white">MacTech Global</span>.  
+          We’re crafting something amazing at <span className="font-semibold text-white">DrivePass</span>.  
           Stay tuned for the future of technology and innovation.
         </p>
 
