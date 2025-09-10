@@ -11,6 +11,13 @@ import Signup from "./pages/Signup";
 import HelpCenter from "./pages/HelpCenter.jsx";
 import Resources from "./pages/Resources.jsx";
 import Coverage from "./pages/Coverage.jsx";
+import FAQ from "./components/FAQ.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+import TestimonialSlider from "./components/TestimonialSlider.jsx";
+import GetStartedSection from "./components/GetStartedSection.jsx";
+import DriverWaitlist from "./pages/DriverWaitlist.jsx";
+import UnionWaitlist from "./pages/UnionWaitlist.jsx";
+import GovernmentWaitlist from "./pages/GovernmentWaitlist.jsx";
 
 function App() {
   return (
@@ -24,6 +31,12 @@ function App() {
             <Home>
               <Hero />
               <HeroImage />
+              <Coverage />
+              <HowItWorks />
+              <HelpCenter />
+              <TestimonialSlider />
+              <FAQ />
+              <GetStartedSection />
             </Home>
           }
         />
@@ -74,6 +87,38 @@ function App() {
           element={
             <Home>
               <HelpCenter />
+            </Home>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Home>
+              <ContactPage />
+            </Home>
+          }
+        />
+        <Route
+          path="/driver"
+          element={
+            <Home>
+              <DriverWaitlist />
+            </Home>
+          }
+        />
+        <Route
+          path="/union"
+          element={
+            <Home>
+              <UnionWaitlist />
+            </Home>
+          }
+        />
+        <Route
+          path="/government"
+          element={
+            <Home>
+              <GovernmentWaitlist />
             </Home>
           }
         />
